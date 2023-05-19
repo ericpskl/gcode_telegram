@@ -39,7 +39,7 @@ timeout: 5
 4.  Test
 
 ![gcode_command_test.png](gcode_command_test.png)
-![telegram_message_received.jpg](telegram_message_received.jpg)
+![telegram_message_received.png](telegram_message_received.jpg)
 
 5.  Add messaging to all the things!
 
