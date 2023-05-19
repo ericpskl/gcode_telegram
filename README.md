@@ -38,6 +38,12 @@ verbose: true
 timeout: 5
 ```
 
+### Restart Klipper
+
+```
+service klipper restart
+```
+
 ### Test
 
 ![gcode_command_test.png](gcode_command_test.png)
