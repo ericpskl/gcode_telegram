@@ -5,7 +5,7 @@ This module has only been tested under Mainsail OS.
 
 # Installation
 
-1. Clone this repo and copy gcode_telegram.py to your Klipper "extras" folder.  Under Mainsail OS:
+### Clone this repo and copy gcode_telegram.py to your Klipper "extras" folder.  Under Mainsail OS:
 
 ```
 git clone https://github.com/ericpskl/gcode_telegram
@@ -13,7 +13,7 @@ cd gcode_telegram
 cp gcode_telegram.py /home/pi/klipper/klippy/extras
 ```
 
-2. Install the Python Requests module
+### Install the Python Requests module
 
 ``` 
 cd klippy-env/
@@ -21,11 +21,11 @@ source klippy-env/bin/activate
 python -m pip install requests
 ```
 
-3. Create a Telegram Bot to use with Klipper
+### Create a Telegram Bot to use with Klipper
 
 See https://core.telegram.org/bots/tutorial for instructions.  Make note of your bot's Token and Chat ID.
 
-4. Enable gcode_telegram in your printer.cfg.  
+### Enable gcode_telegram in your printer.cfg.  
 
 ```
 [gcode_telegram bot]
@@ -36,12 +36,12 @@ verbose: true
 timeout: 5
 ```
 
-4.  Test
+### Test
 
 ![gcode_command_test.png](gcode_command_test.png)
 ![telegram_message_received.png](telegram_message_received.png)
 
-5.  Add messaging to all the things!
+### Add messaging to all the things!
 
 For example, to get a Telegram message when there's a filament runout event:
 
