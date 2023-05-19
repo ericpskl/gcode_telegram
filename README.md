@@ -6,6 +6,8 @@ A host module for Klipper that allows the sending of Telegram messages via gcode
 1. Copy gcode_telegram.py to your Klipper "extras" folder.  Under Mainsail OS:
 
 ```
+git clone https://github.com/ericpskl/gcode_telegram
+cd gcode_telegram
 cp gcode_telegram.py /home/pi/klipper/klippy/extras
 ```
 
