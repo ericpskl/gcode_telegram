@@ -5,7 +5,8 @@ This module has only been tested under Mainsail OS.
 
 # Installation
 
-### Clone this repo and copy gcode_telegram.py to your Klipper "extras" folder.  Under Mainsail OS:
+### Clone this repo and copy gcode_telegram.py to your Klipper "extras" folder.  
+Under Mainsail OS:
 
 ```
 git clone https://github.com/ericpskl/gcode_telegram
@@ -16,6 +17,7 @@ cp gcode_telegram.py /home/pi/klipper/klippy/extras
 ### Install the Python Requests module
 
 ``` 
+cd ~
 cd klippy-env/
 source klippy-env/bin/activate
 python -m pip install requests
