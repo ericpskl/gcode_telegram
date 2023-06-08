@@ -18,7 +18,6 @@ cp gcode_telegram.py /home/pi/klipper/klippy/extras
 
 ``` 
 cd ~
-cd klippy-env/
 source klippy-env/bin/activate
 python -m pip install requests
 ```
